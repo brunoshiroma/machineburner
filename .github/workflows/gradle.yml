@@ -18,7 +18,7 @@ jobs:
     - name: Build with Gradle
       run: ./gradlew build
     - uses: actions/upload-artifact@master
-        if: matrix.os == 'ubuntu-18.04'
-        with:
-          name: benchtool_julia_zip
-          path: ./build/libs/*.jar
+      if: matrix.os == 'ubuntu-18.04'
+      with:
+        name: benchtool_julia_zip
+        path: ./build/libs/*.jar
