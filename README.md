@@ -1,4 +1,4 @@
-#Machine Burner
+# Machine Burner
 Stress Test for machines running Java 13+
 
 ## Tests
